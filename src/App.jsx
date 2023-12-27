@@ -28,7 +28,7 @@ function App() {
           </Route>
           <Route path="/register" element={<Register />}></Route>
           <Route path="/login" element={<LoginPage />}></Route>
-          <Route path="*" element={<NotFoundPage />}></Route>
+          <Route path="*" element={<NotFoundPage/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
